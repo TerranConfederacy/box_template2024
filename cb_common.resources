@@ -8,4 +8,75 @@
   <call key='a10_gun_run.call' />
   <call key='gunship_run.call' />
 
+  <weapon key="ar15_th.weapon" />
+  <weapon key="ar15.weapon" />
+  <weapon key="banner_grass.weapon" />
+  <weapon key="banner_pig.weapon" />
+  <weapon key="qjz89.weapon" />
+  <weapon key="qlz87_b.weapon" />
+  <weapon key="rpk16.weapon" />
+  <weapon key="rpk16_long.weapon" />
+  <weapon key="supershorty.weapon" />
+  <weapon key="sv98.weapon" />
+  <weapon key="sv98_p.weapon" />
+  <weapon key="fhj01.weapon" />
+  <weapon key="chinalake.weapon" />
+  <weapon key="ots14.weapon" />
+  <weapon key="ots14_g.weapon" />
+  <weapon key="m14ebr.weapon" />
+  <weapon key="m14ebr_d.weapon" />
+  <weapon key="m14ebr_s.weapon" />
+  <weapon key="ks23_b.weapon" />
+  <weapon key="ksg_s.weapon" />
+  <weapon key="ksg_b.weapon" />
+  <weapon key="vks.weapon" />
+  <weapon key="m249.weapon" />
+  <weapon key="m249_s.weapon" />
+  <weapon key="squad_equipment_kit_navy.weapon" />
+  <weapon key="lounger.weapon" />
+  <weapon key="parasol_blue.weapon" />
+  <weapon key="parasol_green.weapon" />
+  <weapon key="parasol_yellow.weapon" />
+  <weapon key="parasol_red.weapon" />
+
+  <weapon key="mk47.weapon" />
+  <weapon key="mk47_ai.weapon" />
+
+
+
+  <carry_item key="vest_navy.carry_item" />
+  <carry_item key="vest_exo_ai.carry_item" />
+
+  <carry_item key="coconut.carry_item" />
+  <carry_item key="foxicle.carry_item" />
+    <carry_item key="pacific_travel_guide.carry_item" />
+
+  <carry_item key="costume_fancy_sunglasses.carry_item" />
+  <carry_item key="costume_talisman.carry_item" />
+
+  <carry_item key="mk47_spawner.carry_item" />
+
+  <weapon key="lounger_resource.weapon" />
+
+  <projectile key="ots14_g.projectile" />
+  <projectile key="ots14_g_sub.projectile" />
+  <projectile key="fhj01_rocket.projectile" />
+ <projectile key="squad_equipment_kit_navy.projectile" />
+
+  <carry_item key="orange_juice.carry_item" />
+  <carry_item key="cooler_box_1.carry_item" />
+  <carry_item key="cooler_box_2.carry_item" />
+
+  <weapon key="mrl_terminal.weapon" />  
+  <weapon key="mrl_resource.weapon" />
+  <projectile key="mrl_terminal.projectile" />
+  <projectile key="hovercraft_flare.projectile" />
+  <projectile key="vf101_flare.projectile" />
+  <projectile key="m551_f.projectile" />
+
+  <!-- rebalance -->
+
+  <!-- skin test -->
+  <weapon key="zweihander.weapon" />
+
 </resources>

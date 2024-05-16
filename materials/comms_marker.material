@@ -1,0 +1,332 @@
+// -------------------------------------------------
+material CommsMarkerGroundCall {
+	receive_shadows off
+	technique Default {
+		// stuff that shows through when hidden behind walls and roofs
+		pass Basic {
+			lighting off
+			//ambient 1.0 1.0 1.0 1.0
+			//diffuse 1.0 1.0 1.0 1.0 
+			//lighting on
+			ambient vertexcolour
+			diffuse vertexcolour
+
+			cull_hardware none
+			cull_software none        
+			//alpha_rejection greater 32
+			scene_blend alpha_blend
+
+			depth_write off
+      depth_check off
+
+			texture_unit Image {
+				texture comms_marker_ground_call.png
+				tex_address_mode clamp
+			}
+		} 
+	}
+}
+
+
+material CommsMarkerGroundCallDrop : CommsMarkerGroundCall {
+	technique Default {
+		pass Basic {
+			texture_unit Image {
+				texture comms_marker_ground_call_drop.png
+			}
+		}
+	}
+}
+
+// -------------------------------------------------
+material CommsMarkerGround {
+	receive_shadows off
+	technique {
+		// stuff that shows through when hidden behind walls and roofs
+		pass {
+		        lighting on
+		        depth_write off
+		        depth_check on
+			depth_func greater
+			cull_hardware none
+			cull_software none
+			alpha_rejection greater 16
+
+		        texture_unit {
+				texture comms_marker_ground.png
+				tex_address_mode clamp
+			}
+		} 
+
+		pass {
+			lighting off
+			//ambient 1.0 1.0 1.0 1.0
+			//diffuse 1.0 1.0 1.0 1.0 
+			//lighting on
+			ambient vertexcolour
+			diffuse vertexcolour
+
+			cull_hardware none
+			cull_software none        
+			//alpha_rejection greater 32
+			scene_blend alpha_blend
+
+			depth_write off
+
+			texture_unit {
+				texture comms_marker_ground.png
+				tex_address_mode clamp
+			}
+		} 
+	}
+}
+
+material CommsMarkerFlag {
+	receive_shadows off
+	technique Default {
+		pass Flag {
+			lighting off
+			ambient 1.0 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0 1.0 
+			//lighting on
+
+			cull_hardware none
+			cull_software none        
+			scene_blend alpha_blend
+
+			depth_write off
+			depth_check off
+
+			texture_unit Image {
+				texture comms_marker_flag.png
+				tex_address_mode clamp
+			}
+		}
+
+		pass Icon {
+			lighting off
+			ambient 1.0 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0 1.0 
+			//lighting on
+
+			cull_hardware none
+			cull_software none        
+			scene_blend alpha_blend
+
+			depth_write off
+			depth_check off
+
+		        texture_unit Mask {
+				texture comms_marker_flag_iconmask.png
+				tex_address_mode clamp
+				colour_op_ex source1 src_current src_current
+				alpha_op_ex source1 src_texture	src_current
+			}
+
+		        texture_unit Icon {
+				texture mapview_comms_marker.png
+				tex_address_mode clamp
+				colour_op_ex blend_current_alpha src_texture src_current
+			}
+
+		} 
+	}
+}
+
+
+material CommsMarkerFlagSmall : CommsMarkerFlag {
+	technique Default {
+		pass Flag {
+			texture_unit Image {
+				texture comms_marker_flag_small.png
+			}
+		}
+
+		pass Icon {
+		        texture_unit Mask {
+				texture comms_marker_flag_small_iconmask.png
+			}
+		} 
+	}
+
+}
+
+
+
+material CommsMarkerFlagCall : CommsMarkerFlag {
+	technique Default {
+		pass Flag {
+			texture_unit Image {
+				texture comms_marker_flag_call.png
+			}
+		}
+	}
+}
+
+material CommsMarkerFlagCallDrop : CommsMarkerFlag {
+	technique Default {
+		pass Flag {
+			texture_unit Image {
+				texture comms_marker_flag_call_drop.png
+			}
+		}
+	}
+}
+
+
+material CommsMarkerEdge {
+	receive_shadows off
+	technique Default {
+		pass Icon {
+			lighting off
+			ambient 1.0 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0 1.0 
+
+			cull_hardware none
+			cull_software none        
+			scene_blend alpha_blend
+
+			depth_write off
+			depth_check off
+
+		    texture_unit Icon {
+				texture mapview_comms_marker.png
+				tex_address_mode clamp
+			}
+		} 
+	}
+}
+
+
+material CommsMarkerGroundA10_12 : CommsMarkerGroundCall {
+	technique Default {
+		pass Basic {
+			texture_unit Image {
+				texture comms_marker_ground_a10.png
+				tex_address_mode border
+				tex_border_colour 0.0 0.0 0.0 0.0
+				rotate 270
+			}
+		}
+	}
+}
+
+material CommsMarkerGroundA10_1 : CommsMarkerGroundA10_12 {
+	technique Default {
+		pass Basic {
+			texture_unit Image {
+				rotate 240
+			}
+		}
+	}
+}
+material CommsMarkerGroundA10_2 : CommsMarkerGroundA10_12 {
+	technique Default {
+		pass Basic {
+			texture_unit Image {
+				rotate 210
+			}
+		}
+	}
+}
+material CommsMarkerGroundA10_3 : CommsMarkerGroundA10_12 {
+	technique Default {
+		pass Basic {
+			texture_unit Image {
+				rotate 180
+			}
+		}
+	}
+}
+material CommsMarkerGroundA10_4 : CommsMarkerGroundA10_12 {
+	technique Default {
+		pass Basic {
+			texture_unit Image {
+				rotate 150
+			}
+		}
+	}
+}
+material CommsMarkerGroundA10_5 : CommsMarkerGroundA10_12 {
+	technique Default {
+		pass Basic {
+			texture_unit Image {
+				rotate 120
+			}
+		}
+	}
+}
+material CommsMarkerGroundA10_6 : CommsMarkerGroundA10_12 {
+	technique Default {
+		pass Basic {
+			texture_unit Image {
+				rotate 90
+			}
+		}
+	}
+}
+material CommsMarkerGroundA10_7 : CommsMarkerGroundA10_12 {
+	technique Default {
+		pass Basic {
+			texture_unit Image {
+				rotate 60
+			}
+		}
+	}
+}
+material CommsMarkerGroundA10_8 : CommsMarkerGroundA10_12 {
+	technique Default {
+		pass Basic {
+			texture_unit Image {
+				rotate 30
+			}
+		}
+	}
+}
+material CommsMarkerGroundA10_9 : CommsMarkerGroundA10_12 {
+	technique Default {
+		pass Basic {
+			texture_unit Image {
+				rotate 0
+			}
+		}
+	}
+}
+material CommsMarkerGroundA10_10 : CommsMarkerGroundA10_12 {
+	technique Default {
+		pass Basic {
+			texture_unit Image {
+				rotate 330
+			}
+		}
+	}
+}
+material CommsMarkerGroundA10_11 : CommsMarkerGroundA10_12 {
+	technique Default {
+		pass Basic {
+			texture_unit Image {
+				rotate 300
+			}
+		}
+	}
+}
+
+material CommsMarkerGroundCallGunship : CommsMarkerGroundCall {
+	technique Default {
+		pass Basic {
+			texture_unit Image {
+				texture comms_marker_ground_call_gunship.png
+			}
+		}
+	}
+}
+
+material CommsMarkerGroundCallMrl : CommsMarkerGroundCall {
+	technique Default {
+		pass Basic {
+			texture_unit Image {
+				texture comms_marker_ground_call_gunship.png
+			}
+		}
+	}
+}

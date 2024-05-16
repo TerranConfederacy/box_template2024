@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_valuable.carry_item" name="Pacific travel guide" key="pacific_travel_guide.carry_item">
+    <hud_icon filename="hud_pacific_travel_guide.png" />
+    <inventory encumbrance="0.5" price="50.0" />
+
+    <model mesh_filename="magazine.mesh" texture_filename="pacific_travel_guide.png" />
+
+    <commonness value="0.0" in_stock="1" />
+</carry_item>

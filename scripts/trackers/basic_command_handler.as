@@ -198,6 +198,12 @@ class BasicCommandHandler : Tracker {
             spawnInstanceNearPlayer(senderId, "cargo_truck.vehicle", "vehicle", 1);
         } else if (checkCommand(message, "tank")) {
             spawnInstanceNearPlayer(senderId, "tank.vehicle", "vehicle", 0);
+        } else if (checkCommand(message, "fv101")) {
+            spawnInstanceNearPlayer(senderId, "fv101.vehicle", "vehicle", 0);
+        } else if (checkCommand(message, "hc")) {
+            spawnInstanceNearPlayer(senderId, "hovercraft.vehicle", "vehicle", 0);
+        } else if (checkCommand(message, "m551")) {
+            spawnInstanceNearPlayer(senderId, "m551.vehicle", "vehicle", 0);
         } else if (checkCommand(message, "apc")) {
             spawnInstanceNearPlayer(senderId, "apc.vehicle", "vehicle", 0);
         } else if (checkCommand(message, "tow")) {

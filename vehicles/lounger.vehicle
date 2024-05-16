@@ -1,0 +1,43 @@
+<vehicle name="" key="lounger.vehicle" map_view_atlas_index="-1" respawn_time="36000.0" usable_for_cover="0">
+  <!--  <tag name="sandbag" />-->
+  <!--  <tag name="target" />  we don't want the sandbags to be processed by fov anymore (1.76) -->
+  <!--  tires are mandatory-->
+  <tire_set offset="1.0 0.0 0.5" radius="0.65" />
+  <tire_set offset="1.0 0.0 -0.5" radius="0.65" />
+
+  <physics
+      max_health="4.0"
+      mass="250.0"
+      extent="2.0 0.0 2.0"
+      offset="0 0.0 0"
+      top_offset="0 1 0"
+      collision_model_pos="0 0.6 0"
+      collision_model_extent="1.0 1.2 2.0"
+      visual_offset="0 0.2 0"
+	collision_response_factor="0.2" 
+	blast_push_threshold="10.0" 
+	vehicle_collision_damage_factor="50.0" /> 
+<turret offset="0 -2.0 0.0" weapon_key="lounger.weapon" weapon_offset="0 2.0 0.0" weapon_recoil="0.1" physics_recoil="0.0" max_rotation_step="0.00008" rotation="0" rotation_range="0.00"/>
+
+  <character_slot type="gunner" position="0.0 0.0 -0.0"
+                  rotation="0" exit_rotation="-1.57"
+                  seat_position="0.0 0.05 0.0"
+                  hiding="0" animation_key="on loungner" marker_offset="0 0 0" allow_weapon="0" bind_to_turret="0"> </character_slot>
+
+  <visual class="chassis" mesh_filename="lounger.mesh" texture_filename="lounger.png"/>
+
+  <sound key="hit" filename="barrier_impact1.wav" />
+  <sound key="hit" filename="barrier_impact2.wav" />
+
+  <!--  <event key="receive_damage_xp_reward">-->
+  <!--    <trigger class="receive_damage" />-->
+  <!--    <result class="reward" xp="0.0010" />-->
+  <!--  </event>-->
+
+  <effect event_key="destroy" key="other" ref="SmokeMinor" post_processing="1" />
+  <effect event_key="destroy" key="other" ref="ShadowSmokeMinor" shadow="1" />
+
+
+
+
+</vehicle>

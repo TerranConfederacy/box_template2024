@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hud>
+	<!-- 
+	mask_rect, e.g.:
+		maskImageSize = 1024.0f;		
+		maskRect = Vector4(448.0f, 46.0f, 448.0f+128.0f, 46.0f+128.0f) / maskImageSize;
+	-->
+
+	<comms_marker key="default" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlag" ground_material="CommsMarkerGround" size="11.0" />
+	<comms_marker key="small" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagSmall" ground_material="CommsMarkerGround" size="11.0" />
+	<comms_marker key="call_marker" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundCall" size="9.0" />
+	<comms_marker key="call_marker_drop" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCallDrop" ground_material="CommsMarkerGroundCallDrop" size="9.0" />
+
+	<comms_marker key="call_marker_a10_12" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundA10_12" size="9.0" />
+	<comms_marker key="call_marker_a10_1" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundA10_1" size="9.0" />
+	<comms_marker key="call_marker_a10_2" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundA10_2" size="9.0" />
+	<comms_marker key="call_marker_a10_3" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundA10_3" size="9.0" />
+	<comms_marker key="call_marker_a10_4" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundA10_4" size="9.0" />
+	<comms_marker key="call_marker_a10_5" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundA10_5" size="9.0" />
+	<comms_marker key="call_marker_a10_6" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundA10_6" size="9.0" />
+	<comms_marker key="call_marker_a10_7" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundA10_7" size="9.0" />
+	<comms_marker key="call_marker_a10_8" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundA10_8" size="9.0" />
+	<comms_marker key="call_marker_a10_9" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundA10_9" size="9.0" />
+	<comms_marker key="call_marker_a10_10" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundA10_10" size="9.0" />
+	<comms_marker key="call_marker_a10_11" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundA10_11" size="9.0" />
+
+	<comms_marker key="call_marker_gunship" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundCallGunship" size="9.0" />
+	<comms_marker key="call_marker_mrl" mask_rect="0.4375 0.044921875 0.5625 0.169921875" flag_material="CommsMarkerFlagCall" ground_material="CommsMarkerGroundCall" size="9.0" />
+
+
+	<end_view play_victory_soundtrack="1" />
+</hud>

@@ -7,5 +7,22 @@
 
   <!-- add cb throwables/projectiles below, not in ./weapons/all_throwables.xml -->
   <!-- if you add something here, remember to add it in cb_common.resources or specific faction resources too! -->
-  
+
+    <projectile file="ots14_g.projectile" />
+    <projectile file="ots14_g_sub.projectile" />
+    <projectile file="fhj01_rocket.projectile" />
+    <projectile file="mrl_rocket.projectile" />    
+    <projectile file="mrl_rocket_visual.projectile" />    
+    <projectile file="mrl_rocket_sound.projectile" />
+    <projectile file="mrl_launch_sound.projectile" />
+    <projectile file="undeploy.projectile" />
+    <projectile file="squad_equipment_kit_navy.projectile" />      <projectile file="scorpio_cannon.projectile" />
+
+  <!-- script not ready -->
+  <projectile file="mrl_terminal.projectile" />
+  <projectile file="hovercraft_flare.projectile" />
+  <projectile file="fv101_flare.projectile" />
+  <projectile file="m551_flare.projectile" />
+
+
 </projectiles>

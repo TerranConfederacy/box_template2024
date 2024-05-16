@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projectile class="grenade" name="rocket" slot="1" pulldown_in_air="20.0" key="mrl_rocket_sound.projectile">
+    <tag name="rocket"/>
+    <result 
+	class="blast" 
+	radius="0.0" 
+	damage="0.00" 
+	push="0.0" 
+	decal="0" 
+	damage_origin_vehicle="0" />
+	
+    <trigger class="impact" />
+    <rotation class="motion" />
+
+
+
+    <commonness value="0.0" />
+ 
+    <sound class="result" key="other" fileref="woosh1.wav" />    
+    <sound class="result" key="terrain" copy="other" />
+    <sound class="result" key="static_object" copy="other" />
+    <sound class="result" key="vehicle" copy="other" />
+    <sound class="result" key="character" copy="other" />
+
+</projectile>

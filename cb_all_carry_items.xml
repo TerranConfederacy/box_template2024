@@ -5,5 +5,22 @@
 
   <!-- add cb carry items below, not in ./items/all_carry_items.xml -->
   <!-- if you add something here, remember to add it in cb_common.resources or specific faction resources too! -->
-  
+    <carry_item file="vest_navy.carry_item" />
+    <carry_item file="vest_exo_ai.carry_item" />
+
+    <carry_item file="costume_fancy_sunglasses.carry_item" />
+    <carry_item file="costume_talisman.carry_item" />
+
+    <carry_item file="foxicle.carry_item" />
+    <carry_item file="coconut.carry_item" />
+    <carry_item file="pacific_travel_guide.carry_item" />
+
+    <carry_item file="mk47_spawner.carry_item" />
+
+  <!-- mesh models not ready -->
+    <carry_item file="orange_juice.carry_item" />
+    <carry_item file="snowpeak_coffee.carry_item" />
+    <carry_item file="cooler_box_1.carry_item" />
+    <carry_item file="cooler_box_2.carry_item" />
+
 </carry_items>

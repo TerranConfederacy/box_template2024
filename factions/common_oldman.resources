@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources clear_weapons="1" clear_grenades="1" clear_calls="1" clear_carry_items="1">
+	<weapon key="mk47_ai.weapon" />
+	<weapon key="tracer_dart_ai.weapon" enabled="1" />
+	<call key="cluster_bomb.call" />
+	<projectile key="stun_grenade.projectile" enabled="1" />    
+
+	<carry_item key="vest1.carry_item" enabled="0" />
+	<carry_item key="vest2.carry_item" enabled="0" />
+	<carry_item key="vest3.carry_item" enabled="0" />
+	<carry_item key="eodvest.carry_item" enabled="0" />
+	<carry_item key="eodvest_ai.carry_item" enabled="0" />
+	<carry_item key="vest_exo_ai.carry_item"  enabled="1" />
+
+
+</resources>

@@ -2,7 +2,7 @@
 #include "metagame.as"
 #include "log.as"
 
-#include "path://media/packages/CB7/scripts"
+#include "path://media/packages/box_template/scripts"
 #include "basic_command_handler.as"
 #include "emp_grenade.as"
 #include "gps_laptop.as"
@@ -12,6 +12,8 @@
 #include "squad_equipment_kit.as"
 #include "call_marker_tracker.as"
 #include "rangefinder.as"
+#include "mrl_manager.as"
+#include "squad_equipment_kit_navy.as"
 // #include "spawn_with_dir.as"
 
 class GameModeCBTester : Metagame {
@@ -46,6 +48,8 @@ class GameModeCBTester : Metagame {
         addTracker(RepairCrane(this));
         addTracker(SquadEquipmentKit(this));
         addTracker(RangeFinder(this));
+        addTracker(MrlManager(this));
+        addTracker(SquadEquipmentKitNavy(this));
         // vfs related
         /* addTracker(SpawnWithDir(this)); */
 

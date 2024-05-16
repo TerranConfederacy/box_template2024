@@ -324,6 +324,9 @@ class GameModeInvasion : GameMode, UnlockRemoveListener, UnlockListener {
 		addTracker(AC130GunRun(this));        
 		addTracker(SquadEquipmentKit(this)); 
 		addTracker(RangeFinder(this)); 
+	<!--   summerbox test   -->
+	<!--     -->  	addTracker(SquadEquipmentKitNavy(this));
+	<!--   summerbox test   -->
 	}
 
 	// --------------------------------------------

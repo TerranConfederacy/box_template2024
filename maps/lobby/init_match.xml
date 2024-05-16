@@ -1,0 +1,108 @@
+<commands>
+  <!-- start_game command: new game menu picks up defaults from here and allows user to override certain settings -->
+  <command 
+	  class="start_game" 
+	  vehicles="1" 
+	  max_soldiers="0" 
+	  player_bot_compensation="0" 
+	  xp_multiplier="1.0"
+	  rp_multiplier="1.0"
+	  friendly_fire="0" 
+	  initial_rp="1.0"
+	  initial_xp="1.0"
+	  base_capture_system="any"
+	  spawn_players_with_items="0">
+
+    <faction initial_over_capacity="0" ai_accuracy="0.94" />
+    <faction initial_over_capacity="0" capacity_multiplier="0" ai_accuracy="0.94" />
+  </command>
+  <command
+	  class="update_inventory"
+	  character_id="1"
+	  container_type_class="stash">
+  	<item class="carry_item" key="cigarettes.carry_item" />
+  	<item class="carry_item" key="whiskey_bottle.carry_item" />    
+  </command>
+
+  <command
+	  class="create_instance"
+	  faction_id="1"
+	  position="483.6 3 532.6"
+	  orientation="0 1 0 -0.5"
+	  instance_class="vehicle"
+	  instance_key="bullseye1.vehicle" />
+
+  <command
+	  class="create_instance"
+	  faction_id="1"
+	  position="481.5 3 526.0"
+	  orientation="0 1 0 -0.5"
+	  instance_class="vehicle"
+	  instance_key="bullseye2.vehicle" />
+<!--    
+  <command
+	  class="create_instance"
+	  faction_id="1"
+	  position="540 0 541"
+	  orientation="0 1 0 -0.5"
+	  instance_class="vehicle"
+	  instance_key="radio_jammer.vehicle" /> 
+    
+  <command
+	  class="create_instance"
+	  faction_id="1"
+	  position="509 0 574"
+	  orientation="0 1 0 -0.5"
+	  instance_class="vehicle"
+	  instance_key="tut_sign_stab.vehicle" />  
+    
+  <command
+	  class="create_instance"
+	  faction_id="1"
+	  position="533 0 550"
+	  orientation="0 1 0 -1.5"
+	  instance_class="vehicle"
+	  instance_key="tut_sign_call.vehicle" />    
+    
+  <command
+	  class="create_instance"
+	  faction_id="1"
+	  position="520 0 563"
+	  orientation="0 1 0 -1.5"
+	  instance_class="vehicle"
+	  instance_key="tut_sign_map.vehicle" />             
+
+  <command
+	  class="create_instance"
+	  faction_id="1"
+	  position="498 0 546"
+	  orientation="0 1 0 -0.5"
+	  instance_class="vehicle"
+	  instance_key="tut_sign_accuracy.vehicle" /> 
+    
+  <command
+	  class="create_instance"
+	  faction_id="1"
+	  position="507 0 532"
+	  orientation="0 1 0 -1.5"
+	  instance_class="vehicle"
+	  instance_key="tut_sign_cover.vehicle" />  
+    
+  <command
+	  class="create_instance"
+	  faction_id="1"
+	  position="498 0 561"
+	  orientation="0 1 0 -0"
+	  instance_class="vehicle"
+	  instance_key="tut_sign_shooting.vehicle" />  
+    
+  <command
+	  class="create_instance"
+	  faction_id="1"
+	  position="529 0 567"
+	  orientation="0 1 0 -2.5"
+	  instance_class="vehicle"
+	  instance_key="tut_sign_control.vehicle" />              
+-->                    
+
+</commands>

@@ -1,6 +1,6 @@
 // declare include paths
 #include "path://media/packages/vanilla/scripts"
-#include "path://media/packages/CB7/scripts"
+#include "path://media/packages/box_template/scripts"
 
 #include "gamemode_invasion.as"
 // HACK: [CB7] include trackers here for late addition to a derived GameModeInvasion metagame

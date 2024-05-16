@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_valuable.carry_item" name="cooler box" key="cooler_box_1.carry_item">
+    <hud_icon filename="hud_cooler_box_1.png" />
+    <inventory encumbrance="0.5" price="1.0" />
+
+   
+    <model mesh_filename="cooler_box.mesh" texture_filename="cooler_box_1.png" /> 
+
+    <commonness value="1.0" in_stock="1" />
+
+<!-- Summer event, single player campaign	
+The new ai oldman shall always carry one of the cooler box
+ -->
+
+</carry_item>

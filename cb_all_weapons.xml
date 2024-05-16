@@ -5,5 +5,55 @@
 
   <!-- add cb weapons below, not in ./weapons/all_weapons.xml -->
   <!-- if you add something here, remember to add it in cb_common.resources or specific faction resources too! -->
-  
+  <weapon file="ar15_th.weapon" />
+  <weapon file="ar15.weapon" />
+  <weapon file="banner_grass.weapon" />
+  <weapon file="banner_pig.weapon" />
+  <weapon file="qjz89.weapon" />
+  <weapon file="qlz87_b.weapon" />
+  <weapon file="rpk16.weapon" />
+  <weapon file="rpk16_long.weapon" />
+  <weapon file="supershorty.weapon" />
+  <weapon file="sv98.weapon" />
+  <weapon file="sv98_p.weapon" />
+  <weapon file="fhj01.weapon" />
+  <weapon file="chinalake.weapon" />
+  <weapon file="ots14.weapon" />
+  <weapon file="ots14_g.weapon" />
+  <weapon file="m14ebr.weapon" />
+  <weapon file="ks23_b.weapon" />
+  <weapon file="ksg_s.weapon" />
+  <weapon file="ksg_b.weapon" />
+  <weapon file="vks.weapon" />
+  <weapon file="m249.weapon" />
+  <weapon file="m249_s.weapon" />
+  <weapon file="mk47.weapon" />
+  <weapon file="mk47_ai.weapon" />
+  <weapon file="squad_equipment_kit_navy.weapon" />
+  <weapon file="lounger.weapon" />
+  <weapon file="undeploy.weapon" />
+  <weapon file="mrl.weapon" />
+  <weapon file="mrl_terminal.weapon" />  
+  <weapon file="mrl_resource.weapon" />  
+  <weapon file="scorpio_cannon.weapon" />  
+  <weapon file="hovercraft_minig.weapon" />
+  <weapon file="m551_mg.weapon" />
+  <weapon file="m551_cannon.weapon" />
+  <weapon file="scorpio_cannon.weapon" />
+  <weapon file="shamshir_mg.weapon" />
+  <weapon file="shamshir_cannon.weapon" />
+  <weapon file="lounger_resource.weapon" />
+  <weapon file="m14ebr_d.weapon" />
+  <weapon file="m14ebr_s.weapon" />
+  <weapon file="parasol_blue.weapon" />
+  <weapon file="parasol_green.weapon" />
+  <weapon file="parasol_yellow.weapon" />
+  <weapon file="parasol_red.weapon" />
+  <!-- rebalance -->
+
+  <!-- skin test -->
+  <weapon file="zweihander.weapon" />
+
 </weapons>
+
+

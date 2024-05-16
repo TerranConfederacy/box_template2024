@@ -2,6 +2,20 @@
 <vehicles>
   <vehicle file="vehicles/invasion_all_vehicles.xml" />
   <vehicle file="vehicles/invasion_experimental_vehicles.xml" />
+  <vehicle file="hovercraft.vehicle" />
+  <vehicle file="hovercraft_spawn.vehicle" />
+  <vehicle file="fv101.vehicle" />
+  <vehicle file="fv101_spawn.vehicle" />
+  <vehicle file="m551.vehicle" />
+  <vehicle file="m551_spawn.vehicle" />
+  <vehicle file="fv107.vehicle" />
+  <vehicle file="parasol_blue.vehicle" />
+  <vehicle file="parasol_green.vehicle" />
+  <vehicle file="parasol_yellow.vehicle" />
+  <vehicle file="parasol_red.vehicle" />
+  <vehicle file="mrl.vehicle" />
+  <vehicle file="lounger.vehicle" />
+
 
   <!-- add cb vehicles below, not in ./vehicles/all_vehicles.xml -->
   <!-- if you add something here, remember to add it in cb_common.resources or specific faction resources too! -->

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapon file="base_primary_rare.weapon" key="qlz87_b.weapon">
+    <tag name="machinegun" />
+    <specification 
+  retrigger_time="0.6" 
+  accuracy_factor="0.9" 
+  sustained_fire_grow_step="0.3" 
+  sustained_fire_diminish_rate="0.4" 
+  spread_range="0.20"
+  sight_range_modifier="1.1"
+  magazine_size="15" 
+  can_shoot_standing="0" 
+  can_shoot_crouching="0" 
+  suppressed="0" 
+  name="QLZ87 GL" 
+  class="0" 
+  burst_shots="1"
+  projectile_speed="110.0" 
+    sight_height_offset="2.0"
+  barrel_offset="1.5" 
+    cooldown_start="0.4"
+    cooldown_end="0.0"/>
+
+     <ballistics curve_height="2.5" near_far_distance="10.0" speed_estimation_near="69.0" speed_estimation_far="44.0" max_speed="46.0" randomness="0.0" tweak_factor="2.2" />  
+
+	<animation key="recoil" ref="27" />
+	<animation key="hold" ref="32" />
+    <animation state_key="reload" animation_key="reloading, microgun" volume="0.7" />
+	<animation key="hold_on_wall" ref="1" />
+	<animation state_key="walking" animation_key="walking, heavy weapon" />
+	<animation state_key="walking_backwards" animation_key="walking backwards, heavy weapon" />
+ 	<animation key="running" animation_key="running, lahti_l39" />
+
+    <!--- 
+    <next_in_chain key="qlz87_a.weapon" share_ammo="0" />
+    <animation state_key="reloading, microgun" volume="0.7" /> 
+     -->
+
+    <sound key="fire" fileref="qlz87_shot.wav" pitch_variety="0.05" volume="0.8" />
+    <sound key="magazine_out" fileref="mg_clip_out.wav" />
+    <sound key="magazine_in" fileref="mg_clip_in.wav" />
+    <sound key="cycle" fileref="rifle_chamber.wav" />
+    <sound class="impact" fileref="rifle_drop.wav" />
+    <sound key="cooldown" fileref="overheating_mg.wav" volume="0.4"/>
+    <model filename="qlz87_b.xml" />
+
+    <hud_icon filename="hud_qlz87_b.png" />
+    <commonness value="0.0" can_respawn_with="1" in_stock="1" />
+    <inventory encumbrance="10.0" price="0.0" />
+
+    <effect class="muzzle" ref="LawMuzzle" />
+    <effect class="muzzle" ref="UpDust" />
+    <effect class="muzzle" ref="BigMuzzle" />
+
+    <weak_hand_hold offset="0.4" />
+    <projectile file="mounted_gl.projectile">
+
+    </projectile>
+
+    <modifier class="speed" value="-0.25" />
+</weapon>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_valuable.carry_item" name="orange juice" key="orange_juice.carry_item">
+    <hud_icon filename="hud_orange_juice.png" />
+    <inventory encumbrance="0.5" price="50.0" />
+
+<model mesh_filename="orange_juice.mesh" texture_filename="orange_juice.png" />
+
+    <commonness value="0.0" in_stock="1" />
+</carry_item>

@@ -1,5 +1,5 @@
 #include "path://media/packages/vanilla/scripts"
-#include "path://media/packages/CB7/scripts"
+#include "path://media/packages/box_template/scripts"
 #include "gamemode_cb_tester.as"
 
 void main(dictionary@ inputData) {

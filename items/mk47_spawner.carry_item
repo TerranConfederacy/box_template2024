@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_valuable.carry_item" name="Mk47 spawner" key="mk47_spawner.carry_item" drop_count_factor_on_death="0.0" drop_count_factor_on_player_death="0.0">
+
+    <inventory encumbrance="0.0" price="0.0" />	
+
+    <hud_icon filename="hud_medikit.png" />
+    <model filename="medikit.xml" />
+
+    <drop_on_death_result class="spawn" instance_class="weapon" instance_key="mk47.weapon" min_amount="1" max_amount="1" />    	
+
+    <commonness value="0.5" in_stock="1" />
+
+<!-- 
+The new ai oldman shall have a very very low chance to carry this item
+ -->
+
+</carry_item>
