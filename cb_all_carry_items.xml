@@ -12,7 +12,6 @@
     <carry_item file="costume_talisman.carry_item" />
 
     <carry_item file="foxicle.carry_item" />
-    <carry_item file="coconut.carry_item" />
     <carry_item file="pacific_travel_guide.carry_item" />
 
     <carry_item file="mk47_spawner.carry_item" />
@@ -23,4 +22,9 @@
     <carry_item file="cooler_box_1.carry_item" />
     <carry_item file="cooler_box_2.carry_item" />
 
+    <carry_item file="fruit_coconut.carry_item" />
+    <carry_item file="fruit_grape.carry_item" />
+    <carry_item file="fruit_mango.carry_item" />
+    <carry_item file="fruit_melon.carry_item" />
+    <carry_item file="fruit_banana.carry_item" />
 </carry_items>

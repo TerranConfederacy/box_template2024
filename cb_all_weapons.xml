@@ -49,7 +49,10 @@
   <weapon file="parasol_green.weapon" />
   <weapon file="parasol_yellow.weapon" />
   <weapon file="parasol_red.weapon" />
+
   <!-- rebalance -->
+  <weapon file="kulakov.weapon" />
+  <weapon file="shovel.weapon" />
 
   <!-- skin test -->
   <weapon file="zweihander.weapon" />

@@ -17,12 +17,15 @@
     <projectile file="mrl_launch_sound.projectile" />
     <projectile file="undeploy.projectile" />
     <projectile file="squad_equipment_kit_navy.projectile" />      <projectile file="scorpio_cannon.projectile" />
+    <projectile file="mrl_terminal.projectile" />
+    <projectile file="hovercraft_flare.projectile" />
+    <projectile file="fv101_flare.projectile" />
+    <projectile file="m551_flare.projectile" />
 
-  <!-- script not ready -->
-  <projectile file="mrl_terminal.projectile" />
-  <projectile file="hovercraft_flare.projectile" />
-  <projectile file="fv101_flare.projectile" />
-  <projectile file="m551_flare.projectile" />
+  <!-- rebalance -->
+    <projectile file="firenade_sub.projectile" />
+    <projectile file="firenade.projectile" />
+
 
 
 </projectiles>

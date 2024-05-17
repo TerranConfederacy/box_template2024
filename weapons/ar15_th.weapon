@@ -4,7 +4,7 @@
     <specification 
   retrigger_time="0.113" 
   accuracy_factor="1.0" 
-  sustained_fire_grow_step="0.2" 
+  sustained_fire_grow_step="0.3" 
   sustained_fire_diminish_rate="0.75" 
   magazine_size="30" 
   can_shoot_standing="1" 
@@ -12,7 +12,7 @@
   sight_range_modifier="1.15" 
   name="AR15 - thermal" 
   class="0" 
-  projectile_speed="110.0" 
+  projectile_speed="150.0" 
     stance_accuracy_rate="0.75"  
   barrel_offset="0.4" />
 
@@ -42,7 +42,7 @@
 
     <weak_hand_hold offset="0.2" />
     <projectile file="bullet.projectile">
-        <result class="hit"  kill_probability="0.55" kill_decay_start_time="0.4" kill_decay_end_time="0.67" />
+        <result class="hit"  kill_probability="0.58" kill_decay_start_time="0.4" kill_decay_end_time="0.67" />
     </projectile>
     
     <stance state_key="running" accuracy="0.3" />
@@ -50,9 +50,9 @@
     <stance state_key="crouch_moving" accuracy="0.75" />
     <stance state_key="prone_moving" accuracy="0.3" />
 
-    <stance state_key="standing" accuracy="0.85" />
-    <stance state_key="crouching" accuracy="0.9" />
-    <stance state_key="prone" accuracy="0.93" />
+    <stance state_key="standing" accuracy="1" />
+    <stance state_key="crouching" accuracy="1" />
+    <stance state_key="prone" accuracy="1" />
     
     <modifier class="speed" value="-0.036" />
 </weapon>

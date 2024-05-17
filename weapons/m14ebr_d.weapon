@@ -21,7 +21,7 @@
 	projectiles_per_shot="1" />
 
 	<next_in_chain key="m14ebr.weapon" share_ammo="0" />
-	<animation state_key="next_in_chain_in" animation_key="swap ultimax 1" /> 	
+	<animation state_key="next_in_chain_in" animation_key="swap ultimax 2" /> 	
 
     <animation key="recoil" ref="12" />
     <animation key="recoil" ref="13" />
