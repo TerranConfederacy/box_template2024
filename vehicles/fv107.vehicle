@@ -10,6 +10,7 @@
 	<tag name="any_tank" />
 
 	<tire_set offset="1.04 0.0 +1.52" radius="0.416" />
+                <tire_set offset="1.04 0.0 -0.8" radius="0.416" />
 	<tire_set offset="1.04 0.0 -1.52" radius="0.416" />
 
 	<control 
