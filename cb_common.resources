@@ -47,7 +47,6 @@
   <carry_item key="vest_navy.carry_item" />
   <carry_item key="vest_exo_ai.carry_item" />
 
-  <carry_item key="coconut.carry_item" />
   <carry_item key="foxicle.carry_item" />
     <carry_item key="pacific_travel_guide.carry_item" />
 
@@ -74,7 +73,15 @@
   <projectile key="vf101_flare.projectile" />
   <projectile key="m551_f.projectile" />
 
+    <carry_item key="fruit_coconut.carry_item" />
+    <carry_item key="fruit_grape.carry_item" />
+    <carry_item key="fruit_mango.carry_item" />
+    <carry_item key="fruit_melon.carry_item" />
+    <carry_item key="fruit_banana.carry_item" />
+
   <!-- rebalance -->
+  <weapon key="kulakov.weapon" />
+  <weapon key="shovel.weapon" />
 
   <!-- skin test -->
   <weapon key="zweihander.weapon" />

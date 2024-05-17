@@ -9,7 +9,7 @@
 	magazine_size="15" 
 	can_shoot_standing="1" 
 	suppressed="0" 
-	name="M14ebr" 
+	name="M14ebr - assault" 
 	class="0" 
 	burst_shots="1"
 	reload_one_at_a_time="0" 
@@ -19,7 +19,7 @@
 	projectiles_per_shot="1" />
 
 	<next_in_chain key="m14ebr_s.weapon" share_ammo="1" />
-	<animation state_key="next_in_chain_in" animation_key="swap ultimax 2" /> 
+	<animation state_key="next_in_chain_in" animation_key="swap ultimax 1" /> 
 
     <animation key="recoil" ref="12" />
     <animation key="recoil" ref="13" />

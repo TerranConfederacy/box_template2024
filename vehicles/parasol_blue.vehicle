@@ -23,7 +23,7 @@
 <!-- 	<turret offset="0 -2.0 0.0" weapon_key="undeploy.weapon" weapon_offset="0.0 1.0 1.0" weapon_recoil="0.1" physics_recoil="0.0" max_rotation_step="0.0001" rotation="0" rotation_range="0.0001"/>-->
 	
 4 0 blue 4 1 yellow 5 0 green 5 1 red        -->
-	<visual class="chassis" mesh_filename="parasol.mesh" texture_filename="world_atlas1.png" texture_atlas_cell="6 0 32 32"/>
+	<visual class="chassis" mesh_filename="parasol.mesh" texture_filename="world_atlas1.png" texture_atlas_cell="4 0 32 32"/>
 
 
   
