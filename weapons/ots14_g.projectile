@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<projectile class="grenade" name="VOG-25PM" slot="0" pulldown_in_air="26.0" key="ots14_g.projectile">
+<projectile class="grenade" name="" slot="0" pulldown_in_air="26.0" key="ots14_g.projectile">
     <tag name="grenade"/>
     <result class="spawn" instance_class="projectile" instance_key="ots14_g_sub.projectile" min_amount="1" max_amount="1" offset="0 3.0 0" position_spread="0 0" direction_spread="0 -0" />
     <trigger class="impact" />
     <rotation class="motion" />
     <model mesh_filename="40mm.mesh" texture_filename="40mm.png" />
 
-    <commonness value="0.0" />
+    <commonness value="0.0" in_stock="0" />
     <sound class="result" key="other" fileref="explosion8.wav" volume="0.6" />
 
     <sound class="result" key="vehicle" copy="other" />    

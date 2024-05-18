@@ -7,7 +7,7 @@
     <rotation class="motion" />
     <model mesh_filename="40mm.mesh" texture_filename="40mm.png" />
 
-    <commonness value="0.0" />
+    <commonness value="0.0" in_stock="0" />
 
     <sound class="result" key="other" fileref="explosion5.wav" />
 

@@ -6,6 +6,12 @@
 	<!-- ----------------->
 
 <!-- ----------------->
+<!--   Tcap   -->
+<!-- ----------------->
+	<model filename="costume_tcap.xml">
+		<requirement class="carry_item" slot="1" key="costume_tcap.carry_item"/>
+	</model>
+<!-- ----------------->
 <!--   common soldier navy   -->
 <!-- ----------------->
 	<model filename="soldier_navy.xml">
