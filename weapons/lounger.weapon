@@ -10,7 +10,7 @@
     can_shoot_standing="0" 
     can_shoot_crouching="0" 
     suppressed="0" 
-    name="APC HMG" 
+    name="" 
     class="0" 
     projectile_speed="90.0" 
     slot="2" barrel_offset="1.2" 

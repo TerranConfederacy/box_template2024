@@ -10,7 +10,7 @@
 	can_shoot_standing="0" 
 	can_shoot_crouching="0" 
 	suppressed="0" 
-	name="M14ebr - drum" 
+	name="M14ebr - support" 
 	class="0" 
 	spread_range="0.22"
 	burst_shots="1"
