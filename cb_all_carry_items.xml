@@ -24,6 +24,7 @@
     <carry_item file="snowpeak_coffee.carry_item" />
     <carry_item file="cooler_box_1.carry_item" />
     <carry_item file="cooler_box_2.carry_item" />
+    <carry_item file="amethyst.carry_item" />
 
   <!-- fruits  -->
     <carry_item file="fruit_coconut.carry_item" />
