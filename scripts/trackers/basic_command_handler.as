@@ -200,6 +200,8 @@ class BasicCommandHandler : Tracker {
             spawnInstanceNearPlayer(senderId, "tank.vehicle", "vehicle", 0);
         } else if (checkCommand(message, "fv101")) {
             spawnInstanceNearPlayer(senderId, "fv101.vehicle", "vehicle", 0);
+        } else if (checkCommand(message, "fv107")) {
+            spawnInstanceNearPlayer(senderId, "fv107.vehicle", "vehicle", 0);
         } else if (checkCommand(message, "hc")) {
             spawnInstanceNearPlayer(senderId, "hovercraft.vehicle", "vehicle", 0);
         } else if (checkCommand(message, "m551")) {
