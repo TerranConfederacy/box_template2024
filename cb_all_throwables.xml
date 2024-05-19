@@ -10,7 +10,6 @@
 
     <projectile file="ots14_g.projectile" />
     <projectile file="ots14_g_sub.projectile" />
-    <projectile file="fhj01_rocket.projectile" />
     <projectile file="mrl_rocket.projectile" />    
     <projectile file="mrl_rocket_visual.projectile" />    
     <projectile file="mrl_rocket_sound.projectile" />
@@ -21,10 +20,10 @@
     <projectile file="hovercraft_flare.projectile" />
     <projectile file="fv101_flare.projectile" />
     <projectile file="m551_flare.projectile" />
+    <projectile file="fhj01_rocket.projectile" />
+    <projectile file="fhj01_rocket_sub.projectile" />
 
   <!-- rebalance -->
-    <projectile file="firenade_sub.projectile" />
-    <projectile file="firenade.projectile" />
 
 
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<weapon file="base_primary_rare.weapon" key="banner_grass.weapon" on_ground_up="-1 0 0">
+<weapon file="base_primary_rare.weapon" key="banner_clover.weapon" on_ground_up="-1 0 0">
     <tag name="cqb" />
     <specification
 	magazine_size="-1" 
@@ -46,7 +46,7 @@
 	<sound key="stab_hit" fileref="wrench_body_hit.wav" pitch_variety="0.05" volume="1.5" />
 
 
-    <model filename="banner.mesh"  texture_filename="banner_grass.png" />
+    <model filename="banner.mesh"  texture_filename="banner_clover.png" />
 	<hud_icon filename="hud_banner_grass.png" />
 
     <weak_hand_hold offset="1.0" />
