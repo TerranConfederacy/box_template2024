@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <carry_item file="base_valuable.carry_item" name="amethyst" key="amethyst.carry_item">
     <hud_icon filename="hud_amethyst.png" />
-    <inventory encumbrance="0.5" price="250.0" />
+    <inventory encumbrance="0.5" price="300.0" />
 
-    <model filename="amethyst.xml" />
+    <model mesh_filename="amethyst.mesh" texture_filename="amethyst.png" />
 
     <commonness value="0.0" in_stock="1" />
 </carry_item>
