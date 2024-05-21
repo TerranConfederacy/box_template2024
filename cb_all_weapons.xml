@@ -53,6 +53,8 @@
   <weapon file="lounger_resource.weapon" />
   <weapon file="banner_clover.weapon" />
   <weapon file="banner_pig.weapon" />
+  <weapon file="billboard_1.weapon" />
+  <weapon file="billboard_2.weapon" />
 
   <!-- rebalance -->
   <weapon file="kulakov.weapon" />

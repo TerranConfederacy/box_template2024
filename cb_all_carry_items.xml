@@ -15,7 +15,6 @@
     <carry_item file="vest_exo_ai.carry_item" />
 
   <!-- special ai drop  -->
-    <carry_item file="mk47_spawner.carry_item" />
 
   <!-- loots  -->
     <carry_item file="foxicle.carry_item" />
