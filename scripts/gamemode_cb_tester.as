@@ -15,12 +15,14 @@
 #include "mrl_manager.as"
 #include "squad_equipment_kit_navy.as"
 #include "ice_trade.as"
+#include "summer.as"
 // #include "spawn_with_dir.as"
 
 class GameModeCBTester : Metagame {
     GameModeCBTester(const XmlElement@ settings) {
         super(settings.getStringAttribute("log_level"));
     }
+
 
     void init() {
         Metagame::init();
@@ -52,6 +54,7 @@ class GameModeCBTester : Metagame {
         addTracker(MrlManager(this));
         addTracker(SquadEquipmentKitNavy(this));
         addTracker(IceTrade(this));
+        addTracker(Summer(this));
         // vfs related
         /* addTracker(SpawnWithDir(this)); */
 
