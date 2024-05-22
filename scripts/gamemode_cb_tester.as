@@ -14,6 +14,7 @@
 #include "rangefinder.as"
 #include "mrl_manager.as"
 #include "squad_equipment_kit_navy.as"
+#include "ice_trade.as"
 // #include "spawn_with_dir.as"
 
 class GameModeCBTester : Metagame {
@@ -50,6 +51,7 @@ class GameModeCBTester : Metagame {
         addTracker(RangeFinder(this));
         addTracker(MrlManager(this));
         addTracker(SquadEquipmentKitNavy(this));
+        addTracker(IceTrade(this));
         // vfs related
         /* addTracker(SpawnWithDir(this)); */
 
