@@ -18,9 +18,7 @@
   
     <!--     -->
     <next_in_chain key="rpk16.weapon" share_ammo="1" />
-
-
-	<addon_model filename="backpack_black.xml" />
+    <animation state_key="next_in_chain_out" animation_key="changing barrel" /> 
 
     <animation key="recoil" ref="12" />
     <animation key="recoil" ref="13" />
@@ -35,7 +33,7 @@
     <sound key="magazine_in" fileref="mg_clip_in.wav" />
     <sound key="cycle" fileref="rifle_chamber.wav" />
     <sound class="impact" fileref="rifle_drop.wav" />
-    <sound key="effect" fileref="metal_barrel.wav" volume="0.6"/> 
+    <sound key="effect" fileref="hunter_cycle_in.wav" volume="0.6"/> 
     <model filename="rpk16_long.xml" />
 
     <hud_icon filename="hud_rpk16_long.png" />
