@@ -14,7 +14,7 @@
 	offset="0 0.0 0" 
 	top_offset="0 2 0" 
 	collision_model_pos="0.0 1.0 0.1" 
-	collision_model_extent="3.1 2.0 2.1" 
+	collision_model_extent="2.0 2.0 1.1" 
 	visual_offset="0 -0.0 0" 
 	collision_response_factor="0.2" 
 	blast_push_threshold="10.0" 
