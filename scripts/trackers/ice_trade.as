@@ -5,7 +5,7 @@
 #include "query_helpers.as"
 #include "query_helpers2.as" 
 
-//square 2024/5/21
+//square 2024/5/22
 
 
 
@@ -92,23 +92,23 @@ class IceTrade : Tracker {
 	dictionary playerConnection;
 
 	dictionary playerTradeDrinks;
-	void addDrink(string playerId)
+	void addDrink(string playerIdWithDrinkId)
 	{
-		if(playerTradeDrinks.exists(playerId))
+		if(playerTradeDrinks.exists(playerIdWithDrinkId))
 		{
 			int count;
-			playerTradeDrinks.get(playerId,count);
+			playerTradeDrinks.get(playerIdWithDrinkId,count);
 			count = count+1;
-			playerTradeDrinks.set(playerId,count);
+			playerTradeDrinks.set(playerIdWithDrinkId,count);
 			if(count>=5)
 			{
-				rewardPlayer(playerId);
-				playerTradeDrinks.delete(playerId);
+				rewardPlayer(playerIdWithDrinkId);
+				playerTradeDrinks.delete(playerIdWithDrinkId);
 			}
 		}
 		else
 		{
-			playerTradeDrinks.set(playerId,1);
+			playerTradeDrinks.set(playerIdWithDrinkId,1);
 		}
 	}
 	
@@ -116,9 +116,11 @@ class IceTrade : Tracker {
 	{
 		_log("see this");
 		string itemKey = event.getStringAttribute("item_key");
-		if(event.getIntAttribute("target_container_type_id")!=1 || dirnks.find(itemKey)<0)return;
+		int drinkId = dirnks.find(itemKey);
+		if(event.getIntAttribute("target_container_type_id")!=1 || drinkId<0)return;
 		int lsPlayerId   = event.getIntAttribute("player_id");
 		string playerId = formatInt(lsPlayerId);
+		string playerIdWithDrinkId = formatInt(lsPlayerId)+"&"+formatInt(drinkId);
 		if(!playerConnection.exists(playerId))
 		{
 			Vector3 Pos    = stringToVector3(event.getStringAttribute("position"));	 
@@ -131,7 +133,7 @@ class IceTrade : Tracker {
 			else
 			{
 				playerConnection.set(playerId,true);
-				addDrink(playerId);
+				addDrink(playerIdWithDrinkId);
 				return;
 			}
 		}
@@ -141,7 +143,7 @@ class IceTrade : Tracker {
 			playerConnection.get(playerId,pd);
 			if(pd)
 			{
-				addDrink(playerId);
+				addDrink(playerIdWithDrinkId);
 				return;
 			}
 		}
