@@ -32,7 +32,10 @@
   <weapon key="lounger.weapon" />
   <weapon key="mk47.weapon" />
   <weapon key="mrl_terminal.weapon" />  
-  <weapon key="mrl_resource.weapon" />
+  <weapon key="mrl_resource.weapon" />  
+  <weapon key="g3_1x.weapon.weapon" />  
+  <weapon key="g3_3x.weapon.weapon" />
+
 
   <!-- secondary weapons -->
   <weapon key="supershorty.weapon" />
