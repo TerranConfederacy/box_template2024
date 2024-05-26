@@ -41,6 +41,8 @@
   <weapon file="scorpio_cannon.weapon" />
   <weapon file="shamshir_mg.weapon" />
   <weapon file="shamshir_cannon.weapon" />
+  <weapon file="g3_1x.weapon" />
+  <weapon file="g3_3x.weapon" />
 
   <!-- secondary weapons -->
   <weapon file="supershorty.weapon" />
