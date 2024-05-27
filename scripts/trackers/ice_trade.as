@@ -88,7 +88,7 @@ class IceTrade : Tracker {
 		}
 	}
 
-	protected array<string> dirnks = {"foxicle.carry_item","orange_juice.carry_item","snowpeak_coffee.carry_item","energy_drink.carry_item","beer_can.carry_item"};
+	protected array<string> dirnks = {"popsicle.carry_item","orange_juice.carry_item","iced_coffee.carry_item","energy_drink.carry_item","beer_can.carry_item"};
 	dictionary playerConnection;
 
 	dictionary playerTradeDrinks;

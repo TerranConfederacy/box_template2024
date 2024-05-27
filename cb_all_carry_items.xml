@@ -17,10 +17,10 @@
   <!-- special ai drop  -->
 
   <!-- loots  -->
-    <carry_item file="foxicle.carry_item" />
+    <carry_item file="popsicle.carry_item" />
     <carry_item file="pacific_travel_guide.carry_item" />
     <carry_item file="orange_juice.carry_item" />
-    <carry_item file="snowpeak_coffee.carry_item" />
+    <carry_item file="iced_coffee.carry_item" />
     <carry_item file="cooler_box_1.carry_item" />
     <carry_item file="cooler_box_2.carry_item" />
     <carry_item file="amethyst.carry_item" />
