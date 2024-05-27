@@ -34,7 +34,7 @@
     <model filename="g3_1x.xml" />
 
     <hud_icon filename="hud_g3_1x.png" />
-    <commonness value="1.0" can_respawn_with="1" in_stock="1" />     
+    <commonness value="0.0" can_respawn_with="0" in_stock="0" />     
     <inventory encumbrance="10.0" price="490.0" />
 
    <projectile file="bullet.projectile">

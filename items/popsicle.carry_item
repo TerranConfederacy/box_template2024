@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carry_item file="base_valuable.carry_item" name="popsicle" key="popsicle.carry_item">
+    <hud_icon filename="hud_popsicle.png" />
+    <inventory encumbrance="0.5" price="50.0" />
+
+    <model filename="popsicle.xml" />
+
+    <commonness value="0.0" in_stock="1" />
+</carry_item>
+
