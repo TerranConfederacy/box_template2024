@@ -46,7 +46,7 @@
     <effect class="muzzle" ref="CannonSmokeBigSphere" />       
 
     <sound class="operation" key="fire" fileref="tank_cannon_light.wav"
-pitch_variety="0.25" volume="2.5" />
+pitch_variety="0.25" volume="0.8" />
 
 </weapon>
 <weapon key="scorpio_mg1.weapon">

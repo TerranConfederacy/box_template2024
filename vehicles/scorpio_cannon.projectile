@@ -15,10 +15,8 @@
 
     <commonness value="0.0" />
 
-
-    <sound class="result" key="other" fileref="mortar_01.wav" volume="0.95" pitch_variety="0.1"/>
-    <sound class="result" key="other" fileref="mortar_02.wav" volume="0.95" pitch_variety="0.1"/>
-    <sound class="result" key="other" fileref="mortar_03.wav" volume="0.95" pitch_variety="0.1"/>
+    <sound class="result" key="other" fileref="explosion1.wav" volume="0.85"/>
+    <sound class="result" key="other" fileref="explosion2.wav" volume="0.85"/>
     <sound class="result" key="terrain" copy="other" />
     <sound class="result" key="static_object" copy="other" />
     <sound class="result" key="vehicle" copy="other" />
@@ -33,19 +31,19 @@
     <effect class="result" key="terrain" tag="ice" ref="Godray" lighting="0" />
     <effect class="result" key="terrain" tag="ice" ref="ShadowSmoke" shadow="1" />
     <effect class="result" key="terrain" tag="ice" ref="woosh" post_processing="0" shadow="0" />      
-<!--    <effect class="result" type="splat_map" surface_tag="ice" size="2.0" atlas_index="0" layer="1" />   -->
     <effect class="result" type="splat_map" surface_tag="ice" size="4.5" atlas_index="4" layer="0" />
-<!--    <effect class="result" type="splat_map" surface_tag="ice" size="6.0" atlas_index="0" layer="2" additive="0" /> --> <!-- remove top snow everywhere -->   
+ <!-- remove top snow everywhere -->   
 
-    <effect class="result" key="terrain" ref="ArtiBurst" use_surface_color="1" />
+
+    <effect class="result" key="terrain" ref="BigBurst" use_surface_color="1" />
     <effect class="result" key="terrain" ref="SmokeTop" post_processing="1" />
     <effect class="result" key="terrain" ref="Smoke" post_processing="1" />
     <effect class="result" key="terrain" ref="Shine" lighting="0" />
+    <effect class="result" key="terrain" ref="Godray" lighting="0" />
     <effect class="result" key="terrain" ref="ShadowSmoke" shadow="1" />
-    <effect class="result" key="terrain" ref="woosh" post_processing="0" shadow="0" />   
     <effect class="result" type="splat_map" surface_tag="" size="4.5" atlas_index="0" layer="1" />
-    <effect class="result" type="splat_map" surface_tag="" size="6.5" atlas_index="4" layer="0" />
-    <effect class="result" type="splat_map" surface_tag="" size="8.0" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
+    <effect class="result" type="splat_map" surface_tag="" size="6.0" atlas_index="4" layer="0" />
+    <effect class="result" type="splat_map" surface_tag="" size="6.5" atlas_index="0" layer="2" additive="0" /> <!-- remove top snow everywhere -->
 
     <effect class="result" key="other" ref="SmokeTop" post_processing="1" />
     <effect class="result" key="other" ref="Smoke" post_processing="1" />
